@@ -1,0 +1,84 @@
+.main {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  /* background: yellow; */
+  gap: 30px;
+}
+.principal {
+  padding-top: 100px;
+}
+
+.principal section {
+  margin-bottom: 30px;
+}
+.filtro {
+  width: 200px;
+  position: sticky;
+  background: #0b0a0e;
+}
+
+.pre-titulo {
+  margin-left: 20px;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: var(--cor0);
+}
+
+.filmes-lista {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-family: "Roboto";
+}
+
+.filme-item {
+  /* max-width: 300px */
+  align-self: flex-start;
+}
+
+.filmeIMG {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.titulo {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+  max-width: 14ch;
+  text-align: left;
+}
+
+.Ano {
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+}
+
+.filme-descricao {
+  background: #1b1a22;
+  padding: 10px 10px 15px 10px;
+  color: rgb(177, 177, 177);
+  border-radius: 0 0 5px 5px;
+}
+
+.botao {
+  display: inline-block;
+  font-size: 0.875rem;
+  background: var(--cor3);
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+  text-align: center;
+}
+
+a:hover {
+  background: #6f0dac;
+}
+
+.fim {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

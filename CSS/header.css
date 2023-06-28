@@ -1,0 +1,61 @@
+.header-bg {
+  background: var(--corEscura);
+}
+
+.header {
+  font-family: "Roboto";
+  color: var(--cor0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  position: relative;
+}
+
+.logo > h1 {
+  font-size: 2.75rem;
+  color: #cacaca;
+  font-weight: 500;
+}
+
+.logo h1 span {
+  display: inline-block;
+  padding: 4px;
+  border-radius: 2px;
+  color: #990fe9;
+  font-weight: 600;
+}
+
+.header form > input {
+  background: #2b2a35;
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s;
+  color: #cacaca;
+}
+
+.header form > input:focus {
+  border: none;
+  width: 250px;
+}
+
+.menu-icones {
+  display: flex;
+  list-style: none;
+}
+
+.menu-icones li {
+  cursor: pointer;
+  background: var(--cor3);
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 30px;
+  transition: 0.5s;
+}
+
+.menu-icones li:hover {
+  background: #6f0dac;
+}

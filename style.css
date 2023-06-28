@@ -1,0 +1,32 @@
+@import url("./CSS/header.css");
+@import url("./CSS/main.css");
+
+:root {
+  --cor0: #ffffff;
+  --cor1: #15141a;
+  --cor2: #25222e;
+  --cor3: #8806da;
+  --cor4: #2b88f3;
+  --corEscura: #121116;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: var(--cor1);
+  font-family: "Roboto";
+}
+
+.bloco-central {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* background: #0314fa; */
+}
