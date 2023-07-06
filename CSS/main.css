@@ -13,7 +13,8 @@
 }
 .filtro {
   width: 200px;
-  position: sticky;
+  position: static;
+  left: 0;
   background: #0b0a0e;
 }
 
