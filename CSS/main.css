@@ -60,6 +60,10 @@
   padding: 10px 10px 15px 10px;
   color: rgb(177, 177, 177);
   border-radius: 0 0 5px 5px;
+  display: grid;
+  align-content: space-around;
+  justify-items: start;
+  height: 150px;
 }
 
 .botao {
