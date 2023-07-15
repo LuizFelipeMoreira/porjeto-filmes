@@ -1,5 +1,6 @@
 @import url("./CSS/header.css");
 @import url("./CSS/main.css");
+@import url("./CSS/filtro.css");
 
 :root {
   --cor0: #ffffff;

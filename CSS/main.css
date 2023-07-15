@@ -1,6 +1,6 @@
 .main {
   display: grid;
-  grid-template-columns: auto 1fr;
+  /* grid-template-columns: auto 1fr; */
   /* background: yellow; */
   gap: 30px;
 }
@@ -11,11 +11,11 @@
 .principal section {
   margin-bottom: 30px;
 }
+
 .filtro {
-  width: 200px;
-  position: static;
-  left: 0;
+  width: 600px;
   background: #0b0a0e;
+  margin: 100px auto 0 auto;
 }
 
 .pre-titulo {
@@ -78,7 +78,7 @@
   text-align: center;
 }
 
-a:hover {
+.principal a:hover {
   background: #6f0dac;
 }
 
