@@ -16,6 +16,10 @@
   width: 600px;
   background: #0b0a0e;
   margin: 100px auto 0 auto;
+  display: grid;
+}
+
+.filtro > input {
 }
 
 .pre-titulo {

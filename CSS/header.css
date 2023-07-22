@@ -27,7 +27,59 @@
   font-weight: 600;
 }
 
-.header form > input {
+.categoria-header {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-weight: bold;
+  outline: none;
+  font-size: 1.125rem;
+  /* gap: 20px; */
+  justify-self: center;
+}
+
+.categoria-header li {
+  margin-left: 60px;
+}
+.categoria-header a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.li a:hover {
+  color: var(--cor3);
+}
+
+.categoria-header > .ultimo {
+  border: 2px solid #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.ultimo::before {
+  content: "";
+  background: url("../icones/estrela (5).png") no-repeat;
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+  transition: 0.3s;
+}
+
+.ultimo:hover {
+  background: #990fe9;
+  color: white;
+  border-color: #990fe9;
+}
+
+.ultimo:hover::before {
+  background: url("../icones/estrela16px.png") no-repeat;
+}
+/* .header form > input {
   background: #2b2a35;
   width: 200px;
   padding: 15px;
@@ -35,7 +87,7 @@
   border: none;
   transition: 0.3s;
   color: #cacaca;
-}
+} */
 
 .header form > input:focus {
   border: none;
