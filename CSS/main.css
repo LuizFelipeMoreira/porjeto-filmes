@@ -1,7 +1,7 @@
 .main {
   display: grid;
-  grid-template-columns: auto 1fr;
-  /* background: yellow; */
+  max-width: 1200px;
+  margin-left: 250px;
   gap: 30px;
 }
 .principal {
@@ -10,12 +10,6 @@
 
 .principal section {
   margin-bottom: 30px;
-}
-.filtro {
-  width: 200px;
-  position: static;
-  left: 0;
-  background: #0b0a0e;
 }
 
 .pre-titulo {
