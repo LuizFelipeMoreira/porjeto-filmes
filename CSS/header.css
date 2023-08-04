@@ -1,6 +1,11 @@
+.header-bg {
+  min-width: 100vw;
+  position: fixed;
+  background: var(--corEscura);
+}
+
 .header {
   font-family: "Roboto";
-  background: var(--corEscura);
   color: var(--cor0);
   display: flex;
   flex-wrap: wrap;
@@ -8,8 +13,6 @@
   align-items: center;
   padding: 15px 0 15px 80px;
   /* box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5); */
-  min-width: 100vw;
-  position: fixed;
   z-index: 1;
 }
 
