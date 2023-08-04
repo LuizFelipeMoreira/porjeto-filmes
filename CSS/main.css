@@ -11,6 +11,12 @@
 .principal section {
   margin-bottom: 30px;
 }
+.filtro {
+  width: 200px;
+  position: static;
+  left: 0;
+  background: #0b0a0e;
+}
 
 .pre-titulo {
   margin-left: 20px;
@@ -72,7 +78,7 @@
   text-align: center;
 }
 
-a:hover {
+.principal a:hover {
   background: #6f0dac;
 }
 
