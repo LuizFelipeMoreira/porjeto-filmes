@@ -4,10 +4,9 @@
   color: var(--cor0);
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   padding: 15px 0 15px 80px;
-  /* box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5); */
   min-width: 100vw;
   position: fixed;
   z-index: 1;
@@ -27,19 +26,15 @@
   font-weight: 600;
 }
 
-.header form > input {
+.inputFiltro {
   background: #2b2a35;
-  width: 200px;
-  padding: 15px;
+  padding: 12px;
   border-radius: 10px;
   border: none;
   transition: 0.3s;
   color: #cacaca;
-}
-
-.header form > input:focus {
-  border: none;
-  width: 250px;
+  outline: none;
+  margin-bottom: 20px;
 }
 
 .menu-icones {
