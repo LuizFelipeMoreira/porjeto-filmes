@@ -9,11 +9,12 @@
   color: var(--cor0);
   display: flex;
   flex-wrap: wrap;
+  max-width: 1200px;
+  margin-left: 220px;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 0 15px 80px;
+  padding: 15px 15px;
   /* box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5); */
-  z-index: 1;
 }
 
 .logo > h1 {
@@ -40,59 +41,9 @@
   color: #cacaca;
 }
 
-.categoria-header li {
-  margin-left: 60px;
-}
-.categoria-header a {
-  text-decoration: none;
-  color: #ffffff;
-  transition: 0.5s;
-}
-
-.li a:hover {
-  color: var(--cor3);
-}
-
-.categoria-header > .ultimo {
-  border: 2px solid #ffffff;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-.ultimo::before {
-  content: "";
-  background: url("../icones/estrela (5).png") no-repeat;
-  height: 16px;
-  width: 16px;
-  margin-right: 8px;
-  transition: 0.3s;
-}
-
-.ultimo:hover {
-  background: #990fe9;
-  color: white;
-  border-color: #990fe9;
-}
-
-.ultimo:hover::before {
-  background: url("../icones/estrela16px.png") no-repeat;
-}
-/* .header form > input {
-  background: #2b2a35;
-  width: 200px;
-  padding: 15px;
-  border-radius: 10px;
-  border: none;
-  transition: 0.3s;
-  color: #cacaca;
-} */
-
 .header form > input:focus {
   border: none;
+  outline: none;
   width: 250px;
 }
 
@@ -107,6 +58,7 @@
   padding: 10px;
   border-radius: 5px;
   transition: 0.5s;
+  position: relative;
 }
 
 .icone {
@@ -115,4 +67,15 @@
 
 .menu-icones li:hover {
   background: #6f0dac;
+}
+
+i {
+  position: absolute;
+  color: #6f0dac;
+  font-size: 0.625rem;
+  background-color: white;
+  border-radius: 50%;
+  padding: 4px 8px;
+  bottom: -5;
+  left: -5px;
 }
