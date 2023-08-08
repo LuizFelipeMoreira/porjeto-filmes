@@ -1,8 +1,93 @@
 .filtro {
-  width: 230px;
+  display: grid;
+  width: 250px;
   position: fixed;
   min-height: 100vh;
   left: 0;
   background: var(--corEscura);
   color: white;
+  padding: 20px;
+  align-content: center;
+  box-sizing: border-box;
+}
+
+.inputFiltro {
+  background: #2b2a35;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s;
+  color: #cacaca;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.filtro h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.categoria {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.categoria a {
+  text-decoration: none;
+  color: white;
+  /* background: blue; */
+  padding: 5px;
+  transition: 0.3s;
+}
+
+.categoria a:hover {
+  color: rgb(206, 205, 205);
+}
+.categoria li {
+  display: flex;
+  align-items: center;
+  border-top: 2px solid #1b1a22;
+  padding-top: 5px;
+}
+.lancamentos::before {
+  content: "";
+  background: url("./icones/coroa.png") no-repeat center;
+  background-color: #1b1a22;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.Recomendados::before {
+  content: "";
+  background: url("./icones/recomendacao.png") no-repeat center;
+  background-color: #1b1a22;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.MaisVistos::before {
+  content: "";
+  background: url("./icones/binocular.png") no-repeat center;
+  background-color: #1b1a22;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
 }

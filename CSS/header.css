@@ -2,6 +2,7 @@
   min-width: 100vw;
   position: fixed;
   background: var(--corEscura);
+  z-index: 300;
 }
 
 .header {
