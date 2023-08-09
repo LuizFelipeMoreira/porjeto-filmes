@@ -1,7 +1,7 @@
 .header-bg {
   min-width: 100vw;
   position: fixed;
-  background: var(--corEscura);
+  background: #111016;
   z-index: 300;
 }
 
