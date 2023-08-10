@@ -1,0 +1,80 @@
+.container-modal {
+  display: none;
+  min-height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.container-modal.ativo {
+  display: flex;
+  animation: aprecerModal 0.3s;
+}
+
+.btn-fechar {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  border: none;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  background: var(--cor2);
+  font-size: 1.175rem;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+}
+.conteudo-modal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--cor1);
+  width: 700px;
+  align-items: start;
+  position: relative;
+  border-radius: 5px;
+}
+
+.imagem-filme {
+  height: 100%;
+  border-radius: 5px;
+}
+.imagem-filme img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.descricao-modal {
+  padding: 20px;
+}
+
+.descricao-modal h1 {
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+  color: #b1afaf;
+}
+
+.descricao-modal p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  word-break: break-all;
+  color: #b1afaf;
+}
+
+@keyframes aparecerModal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
