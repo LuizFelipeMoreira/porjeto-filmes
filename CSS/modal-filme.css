@@ -13,7 +13,7 @@
 
 .container-modal.ativo {
   display: flex;
-  animation: aprecerModal 0.3s;
+  animation: aparecerModal 0.3s forwards;
 }
 
 .btn-fechar {
@@ -71,7 +71,7 @@
 @keyframes aparecerModal {
   from {
     opacity: 0;
-    transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, 40px, 0);
   }
   to {
     opacity: 1;
