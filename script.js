@@ -9,6 +9,7 @@ botao.forEach((btn) => {
 // Abrir Modal
 function openModal(event) {
   event.preventDefault();
+  console.log("hbujnd");
   const div = this.parentElement;
   containerModal.classList.add("ativo");
   replaceContent(div.parentElement);
