@@ -54,7 +54,7 @@
 }
 .lancamentos::before {
   content: "";
-  background: url("./icones/coroa.png") no-repeat center;
+  background: url("../icones/coroa.png") no-repeat center;
   background-color: #1b1a22;
   border-radius: 5px;
   padding: 10px;
@@ -67,7 +67,7 @@
 }
 .Recomendados::before {
   content: "";
-  background: url("./icones/recomendacao.png") no-repeat center;
+  background: url("../icones/recomendacao.png") no-repeat center;
   background-color: #1b1a22;
   border-radius: 5px;
   padding: 10px;
@@ -80,7 +80,7 @@
 }
 .MaisVistos::before {
   content: "";
-  background: url("./icones/binocular.png") no-repeat center;
+  background: url("../icones/binocular.png") no-repeat center;
   background-color: #1b1a22;
   border-radius: 5px;
   padding: 10px;

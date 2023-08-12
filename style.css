@@ -1,6 +1,7 @@
 @import url("./CSS/header.css");
 @import url("./CSS/main.css");
-@import url("filtro.css");
+@import url("./CSS/filtro.css");
+@import url("./CSS/modal-filme.css");
 :root {
   --cor0: #ffffff;
   --cor1: #15141a;
