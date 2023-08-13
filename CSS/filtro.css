@@ -9,6 +9,7 @@
   padding: 20px;
   align-content: center;
   box-sizing: border-box;
+  transition: width 0.75s ease;
 }
 
 .home {
@@ -27,7 +28,7 @@
   margin-top: 40px;
   background: #2b2a35;
   padding: 12px;
-  border-radius: 10px;
+  border-radius: 25px;
   border: none;
   transition: 0.3s;
   color: #cacaca;
@@ -103,4 +104,95 @@
   display: inline-block;
   margin-right: 10px;
   cursor: pointer;
+}
+@media (max-width: 1100px) {
+  .filtro {
+    width: 220px;
+  }
+  .main {
+    margin-left: 230px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header {
+    margin-left: 80px;
+  }
+  .main {
+    margin-left: 90px;
+  }
+  .filtro {
+    padding: 15px;
+    width: 70px;
+    min-height: 100%;
+    overflow: hidden;
+    transition: width 0.75s ease;
+    cursor: pointer;
+  }
+
+  .filtro .home {
+    margin: 0;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+  }
+  .home img {
+    height: 24px;
+    width: 24px;
+  }
+
+  .filtro .categoria li {
+    border: none;
+  }
+
+  .filtro .inputFiltro {
+    border-radius: 50%;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    background-image: url("../icones/lupa (1).png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .filtro .inputFiltro::placeholder {
+    opacity: 0;
+  }
+
+  .filtro .categoria li {
+    border: none;
+  }
+
+  .filtro .inputFiltro {
+    border-radius: 50%;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    background-image: url("../icones/lupa (1).png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .filtro .inputFiltro::placeholder {
+    opacity: 0;
+  }
+
+  /* ********* .active ********* */
+
+  .filtro.active {
+    width: 220px;
+  }
+
+  .filtro.active .home {
+    margin: 0 auto;
+  }
+
+  .filtro.active .inputFiltro {
+    width: initial;
+    border-radius: 25px;
+    background-image: none;
+  }
+  .filtro.active .inputFiltro::placeholder {
+    opacity: 1;
+  }
 }

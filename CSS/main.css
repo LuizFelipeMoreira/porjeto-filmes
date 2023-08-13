@@ -33,7 +33,7 @@
 }
 
 .filme-item {
-  /* max-width: 300px */
+  min-width: 140px;
   align-self: flex-start;
 }
 
