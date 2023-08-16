@@ -68,6 +68,13 @@
   color: #b1afaf;
 }
 
+.descricao-modal > .botao {
+  margin-top: 30px;
+}
+.descricao-modal > .botao:hover {
+  background: #6f0dac;
+}
+
 @keyframes aparecerModal {
   from {
     opacity: 0;
