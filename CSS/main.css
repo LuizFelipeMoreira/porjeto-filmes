@@ -24,12 +24,6 @@
 .principal section {
   margin-bottom: 30px;
 }
-.filtro {
-  width: 200px;
-  position: static;
-  left: 0;
-  background: #0b0a0e;
-}
 
 .pre-titulo {
   margin-left: 20px;
@@ -46,7 +40,7 @@
 }
 
 .filme-item {
-  min-width: 140px;
+  min-width: 160px;
   align-self: flex-start;
 }
 
