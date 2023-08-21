@@ -10,6 +10,13 @@
 
 .setas {
   display: flex;
+  gap: 5px;
+  width: 100%;
+  justify-content: end;
+}
+.setas img {
+  height: 20px;
+  margin-bottom: 5px;
 }
 .section-filme {
   max-width: 1100px;
@@ -85,7 +92,7 @@
   text-align: center;
 }
 
-.principal a:hover {
+.principal .botao:hover {
   background: #6f0dac;
 }
 
