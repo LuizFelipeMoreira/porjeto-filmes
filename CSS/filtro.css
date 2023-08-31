@@ -109,12 +109,7 @@
   .filtro {
     width: 220px;
   }
-  .main {
-    margin-left: 230px;
-  }
-}
 
-@media (max-width: 1000px) {
   .header {
     margin-left: 80px;
   }
